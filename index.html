@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<!--Applied an External CSS even though I couldn't seem to get a few things to run without putting them within the text.
+Once I have a greater understanding of HTML and CSS I'll go back and adjust, so I only use an External CSS document.
+Also applied scaling, because I noticed without it the code was flopping off the edges.-->
+<html>
+    <head>
+        <meta charset= "UTF-8">
+        <meta name= "viewport" content= "width=device-width, initial-scale=1.0">
+	    <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/2/2d/Google-favicon-2015.png">
+        <link rel= "stylesheet" href= "google.css">
+        <title> Google </title>
+    </head>
+<body>
+    <div class = container>
+        <div class="container-row header">
+            <a class="header-link" href="">About</a>
+            <a class="header-link" href="">Store</a>
+
+            <div class="rest-of-header">
+                <div class="header-right">
+                    <div style="display: flex; align-items: center;">
+                    <div class="gmail-images">
+                        <div class="gmail-images-link">
+                            <a href="">Gmail</a>
+                        </div>
+                        
+                        <div class="gmail-images-link">
+                            <a href="">Images</a>
+                        </div>
+                    </div>
+                    </div>
+
+                    <div class="apps-signin">
+                        <div class="apps">
+                            <a href="https://www.archerrosedigital.com" style="display: flex;"><img src="https://icon-library.com/images/dots-icon/dots-icon-1.jpg" alt="apps"></a>
+                        </div>
+
+                        <a href="" class="signin">Sign In</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container-row image">
+            <div class="logo">
+                <img class="image-logo" src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/2880px-Google_2015_logo.svg.png" alt="Google" width="300" height="100">
+            </div>
+        </div>
+
+        <div class="container-row input-row">
+            <form role="search">
+                <div class="control-panel">
+                    <div class="searchbar">
+                        <div class="searchbar-internal">
+                            <div class="search-icon-box">
+                                <div class="search-icon">
+                                    <img alt="magnifying glass" src="https://media.istockphoto.com/vectors/magnifying-glass-icon-vector-id986618996?s=612x612">
+                                </div>
+                            </div>
+
+                            <div class="search-field">
+                                <input class="search-field-input" title="search" value="">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="search-buttons-box">
+                        <div class="search-buttons">
+                            <input value="Google Search" type="submit" class="search-button">
+                            <input type="submit" value="I'm Feeling Lucky" class="search-button">
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="fill"></div>
+
+        <div class="container-row footer">
+            <div class="footer-internal">
+                <div class="footer-left">
+                    <a class="footer-link" href="">Advertising</a>
+                    <a class="footer-link" href="">Business</a>
+                    <a class="footer-link" href="">How Search Works</a>
+                </div>
+
+                <div class="footer-center">
+                    <a class="footer-link" href="">"Kindness is Never Wasted"</a>
+                </div>
+
+                <div class="footer-right">
+                    <a class="footer-link" href="">Privacy</a>
+                    <a class="footer-link" href="">Terms</a>
+                    <a class="footer-link" href="">Settings</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

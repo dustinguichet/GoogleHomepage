@@ -1,0 +1,1 @@
+# google-homepage : This project taught me how to use DevTools to recreate a webpage from scratch using existing elements from a created project. The advantages to using this are reduced production time, and gluing elemnt together for new results. Whether - it be to impliment a front facing database pulled from the back-end, or a fancy hover feature that a client wants. 
